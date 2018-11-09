@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.618;
+  color: #2d293e;
+  font-family: -apple-system,Helvetica Neue,Hiragino Sans,"游ゴシック","游ゴシック体",YuGothic,"ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #f5deb3;
+  z-index: 100;
+}
+
+@media screen and (max-width: 376px) {
+  * {
+    font-size: small;
+  }
+}
