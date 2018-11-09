@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Chapter from './Chapter';
 import TEXT_IMG from '../assets/text.png';
+import JUMB_IMG from '../assets/jumbotron.jpg';
 
 const AboutWrapper = styled.div`
     display: flex;
@@ -62,7 +63,7 @@ const About = (props) => {
             <AboutWrapper>
                 <Column>
                     <ImageWrapper>
-                        <Image src="https://twipla.jp/imgs/1810/208588303497899.png"></Image>
+                        <Image src={JUMB_IMG}></Image>
                     </ImageWrapper>
                 </Column>
                 <Column>

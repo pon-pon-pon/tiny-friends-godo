@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import LOGO_IMAGE from '../assets/logo.png';
-import JUMBOTRON_IMAGE from '../assets/jumbotron.png';
+import JUMBOTRON_IMAGE from '../assets/jumbotron.jpg';
 
 function clickEntry(e){
     e.preventDefault();
