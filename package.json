@@ -10,6 +10,7 @@
     "reactstrap": "^6.5.0",
     "styled-components": "^4.0.3"
   },
+  "homepage" : "https://www.tiny-friends-godo.net",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
