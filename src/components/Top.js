@@ -21,7 +21,7 @@ const Top = (props) => {
     background-image: url(${JUMBOTRON_IMAGE});
     background-position: center center;
     background-size: cover;
-    filter: brightness(70%) sepia(50%) blur(10px);
+    filter: brightness(80%) sepia(50%) blur(10px);
     width: 100%;
     height: 100%;
     z-index: -100;
