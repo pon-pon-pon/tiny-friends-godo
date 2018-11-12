@@ -6,7 +6,7 @@ import ICON_T from '../assets/icon_t.png';
 
 const Name = styled.p`
     letter-spacing:     .064em;
-    font-size:          1.5rem;
+    font-size:          1.3rem;
     font-weight:        200;
     transition:         transform .3s ease-out;
     transform:          translateY(-1rem);
