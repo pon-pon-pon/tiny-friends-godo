@@ -50,4 +50,19 @@ const Constants = {
     ],
 };
 
-export default Constants;
+function replaceDscriptionForIcon(nameList){
+    for (let i = 0;i<Constants.participants.length;i++){
+        if (nameList.indexOf(Constants.participants[i].name)==-1){
+            Constants.participants[i].name = 'ペンネーム';
+            Constants.participants[i].icon = `
+                background-image: url(${PARTICIPANT_ICONS.ICON_DUMMY});
+                background-size: 100%;
+            `;
+        }
+    }
+    return Constants
+};
+
+//export default Constants;
+
+export default replaceDscriptionForIcon(['しょうぽん', 'うとい'])
