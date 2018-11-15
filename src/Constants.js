@@ -10,6 +10,7 @@ const Constants = {
                 background-image: url(${PARTICIPANT_ICONS.ICON_AMANO});
                 background-size: 100%;
             `,
+            assent: true,
         },
         {
             name: 'うとい',
@@ -19,6 +20,7 @@ const Constants = {
                 background-image: url(${PARTICIPANT_ICONS.ICON_UTOI});
                 background-size: 100%;
             `,
+            assent: true,
         },
         {
             name: 'かげ',
@@ -27,6 +29,7 @@ const Constants = {
                 background-image: url(${PARTICIPANT_ICONS.ICON_KAGE});
                 background-size: 100%;
             `,
+            assent: false,
         },
         {
             name: 'しょうぽん',
@@ -36,6 +39,7 @@ const Constants = {
                 background-image: url(${PARTICIPANT_ICONS.ICON_SHOPON});
                 background-size: 100%;
             `,
+            assent: true,
         },
         {
             name: 'ろりもやし',
@@ -46,6 +50,7 @@ const Constants = {
                 background-size: 100%;
                 background-position: center center;
             `,
+            assent: true,
         },
     ],
 };
@@ -63,6 +68,6 @@ function replaceDscriptionForIcon(nameList){
     return Constants
 };
 
-//export default Constants;
+export default Constants;
 
-export default replaceDscriptionForIcon(['しょうぽん', 'うとい'])
+//export default replaceDscriptionForIcon(['しょうぽん', ''])

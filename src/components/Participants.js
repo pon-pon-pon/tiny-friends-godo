@@ -20,9 +20,11 @@ const Participants = (props) => {
 
     const participantComponents = [];
     for ( let i = 0;i<participants.length;i++ ) {
-        participantComponents.push(
-            <Participant model={participants[i]} key={i}/>
-        );
+        if (participants[i].assent){
+            participantComponents.push(
+                <Participant model={participants[i]} key={i}/>
+            );
+        }
     }
 
     return (
