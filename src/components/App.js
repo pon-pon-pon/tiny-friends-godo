@@ -10,21 +10,23 @@ import About from './About';
 
 import Constants from '../Constants';
 
-const AppWrapper = styled.div``;
+const AppWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`;
 
 export default class App extends React.Component{
     render(){
         // mock data
         return (
             <AppWrapper>
-                <div>
-                    <Top/>
-                    <NavBar/>
-                    <About/>
-                    <Information />
-                    <Participants participants={Constants.participants} />
-                    <Contact/>
-                </div>
+                <Top/>
+                <NavBar/>
+                <About/>
+                <Information />
+                <Participants participants={Constants.participants} />
+                <Contact/>
             </AppWrapper>
         );
     }

@@ -2,7 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ChapterWrapper = styled.div`
-   margin: 5%;
+    margin: auto;
+    @media screen and (min-width: 1000px) {
+        width: 1000px;
+    }
 `;
 const ChapterTitle = styled.h2`
     line-height: 4rem;
