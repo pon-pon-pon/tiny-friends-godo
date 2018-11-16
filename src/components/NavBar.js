@@ -23,21 +23,19 @@ const NavBarItem = styled.li`
     }
 `;
 
-const NavBarLink = styled.a`
+const NavBarLink = styled.div`
     color: #fff !important;
-    text-decoration: none;
-    &:hover {
-        text-decoration: none;
-    }
-    &:visited {
-        color: #fff !important;
-    }
 `;
 
 function createNavBarItem(chapterName){
+    // ToDo: 応急処置的にjsからリンクを飛ばしているのでaタグでの実装に切り替える
+    const move = (e)=>{
+        window.location.href="#"+chapterName;
+        e.preventDefault();
+    };
     return (
-        <NavBarItem>
-            <NavBarLink href={"#"+chapterName}>{chapterName}</NavBarLink>
+        <NavBarItem onClick={move}>
+            <NavBarLink>{chapterName}</NavBarLink>
         </NavBarItem>
     );
 }
