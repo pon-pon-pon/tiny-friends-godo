@@ -70,6 +70,11 @@ const Top = (props) => {
     max-width: 100%;
   `;
 
+  const DeadLine = styled(FlavorText)`
+    font-weight: bold;
+    text-decoration: underline red;
+  `;
+
     return (
       <JumbotronWrapper id="Top">
         <JumbotronImage/>
@@ -80,6 +85,7 @@ const Top = (props) => {
             東方Projectのキャラクターとの<ResponsiveBr/>
             生活を描いた合同誌
           </FlavorText>
+          <DeadLine>参加締め切り<br/>2018/12/15 23:59:59まで</DeadLine>
           <EntryLink onClick={clickEntry}>参加する</EntryLink>
           <div style={{margin: '20px'}}><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="" data-url="http://www.tiny-friends-godo.net/" data-hashtags="ちっちゃいこのいる日常合同" data-show-count="false">Tweet</a></div>
         </JumbptronContent>
