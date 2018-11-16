@@ -18,7 +18,10 @@ const Top = (props) => {
   const JumbotronWrapper = styled.div`
     position: relative;
     widht: 100%;
-    height: 600px;
+    height: 700px;
+    @media screen and (min-height: 800px) {
+      height: 800px;
+    }
   `;
 
   const JumbotronImage = styled.div`
