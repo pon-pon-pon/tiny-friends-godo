@@ -3,6 +3,10 @@ import styled from 'styled-components';
 
 import Chapter from './Chapter';
 import Participant from './Participant';
+import {
+    ResponsiveBr,
+    ResponsiveBrReverse
+} from './ResponsiveBr';
 
 const ParticipantsWrapper = styled.div`
     display:            flex;
@@ -29,7 +33,10 @@ const Participants = (props) => {
 
     return (
         <Chapter name="参加者一覧">
-            <p><small>五十音順。敬称略。確認が取れた方から順次掲載させてだきます。</small></p>
+            <p>
+                五十音順。敬称略。<ResponsiveBr/>
+                確認が取れた方から順次掲載させてだきます。
+            </p>
             <ParticipantsWrapper>
                 {participantComponents}
             </ParticipantsWrapper>

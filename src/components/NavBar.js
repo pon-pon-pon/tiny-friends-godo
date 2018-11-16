@@ -17,6 +17,7 @@ const NabBarWrapper = styled.ul`
 
 const NavBarItem = styled.li`
     padding: 10px 15px 10px 15px;
+    cursor: pointer;
     &:hover {
         background-color: #0d090e;
     }
@@ -25,7 +26,6 @@ const NavBarItem = styled.li`
 const NavBarLink = styled.a`
     color: #fff !important;
     text-decoration: none;
-    cursor: pointer;
     &:hover {
         text-decoration: none;
     }

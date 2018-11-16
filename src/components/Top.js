@@ -1,5 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import {
+  ResponsiveBr,
+  ResponsiveBrReverse
+} from './ResponsiveBr';
+
 import LOGO_IMAGE from '../assets/logo.png';
 import JUMBOTRON_IMAGE from '../assets/jumbotron.jpg';
 
@@ -56,6 +61,9 @@ const Top = (props) => {
   const FlavorText = styled.p`
     font-size: 20px;
     font-weight: 200;
+    @media screen and (max-width: 500px) {
+      font-size: 16px;
+    }
   `;
 
   const Logo = styled.img`
@@ -67,7 +75,11 @@ const Top = (props) => {
         <JumbotronImage/>
         <JumbptronContent>
           <Logo src={LOGO_IMAGE} />
-          <FlavorText>手乗りサイズにちっちゃくなった東方Projectのキャラクターとの生活を描いた漫画，イラスト，小説の合同誌</FlavorText>
+          <FlavorText>
+            手乗りサイズにちっちゃくなった<ResponsiveBr/><ResponsiveBrReverse/>
+            東方Projectのキャラクターとの<ResponsiveBr/>
+            生活を描いた合同誌
+          </FlavorText>
           <EntryLink onClick={clickEntry}>参加する</EntryLink>
           <div style={{margin: '20px'}}><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="" data-url="http://www.tiny-friends-godo.net/" data-hashtags="ちっちゃいこのいる日常合同" data-show-count="false">Tweet</a></div>
         </JumbptronContent>
