@@ -17,27 +17,25 @@ const NabBarWrapper = styled.ul`
 
 const NavBarItem = styled.li`
     padding: 10px 15px 10px 15px;
+    cursor: pointer;
     &:hover {
         background-color: #0d090e;
     }
 `;
 
-const NavBarLink = styled.a`
+const NavBarLink = styled.div`
     color: #fff !important;
-    text-decoration: none;
-    cursor: pointer;
-    &:hover {
-        text-decoration: none;
-    }
-    &:visited {
-        color: #fff !important;
-    }
 `;
 
 function createNavBarItem(chapterName){
+    // ToDo: 応急処置的にjsからリンクを飛ばしているのでaタグでの実装に切り替える
+    const move = (e)=>{
+        window.location.href="#"+chapterName;
+        e.preventDefault();
+    };
     return (
-        <NavBarItem>
-            <NavBarLink href={"#"+chapterName}>{chapterName}</NavBarLink>
+        <NavBarItem onClick={move}>
+            <NavBarLink>{chapterName}</NavBarLink>
         </NavBarItem>
     );
 }

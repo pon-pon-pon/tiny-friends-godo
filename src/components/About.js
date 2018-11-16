@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Chapter from './Chapter';
+import {
+    ResponsiveBr,
+    ResponsiveBrReverse
+} from './ResponsiveBr';
 import TEXT_IMG from '../assets/text.png';
 import JUMB_IMG from '../assets/jumbotron.jpg';
 
@@ -44,7 +48,7 @@ const Image = styled.img`
 `;
 
 const FlavorText = styled.p`
-    text-align left;
+    text-align: center;
     margin: 5px;
     work-wrap: break-word;
 `;
@@ -54,6 +58,7 @@ const TextImage = styled.img`
     height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
 `;
 
 
@@ -69,12 +74,12 @@ const About = (props) => {
                 <Column>
                     <TextImage src={TEXT_IMG}></TextImage>
                     <FlavorText>
-                        手乗りサイズにちいさくなった（デフォルメや妖精さんサイズ）にした
-                        東方Projectのキャラクターを中心の日常もの合同誌（全年齢向け）になります。
+                        ちいさくなったあのこが<ResponsiveBr/>手乗りサイズで側にいる日常。
                     </FlavorText>
                     <FlavorText>
-                        漫画、イラスト、小説の中から選んでご参加ください。
-                        R-18及びR-18G描写は禁止とさせていただきます。
+                        手乗りサイズになった<ResponsiveBr/>
+                        東方Projectのキャラクターを中心とする<ResponsiveBr/><ResponsiveBrReverse/>
+                        漫画、イラスト、小説の日常系合同誌。
                     </FlavorText>
                 </Column>
             </AboutWrapper>
