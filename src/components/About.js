@@ -23,6 +23,10 @@ const Column = styled.div`
     }
 `;
 
+const ImageMargin = styled.div`
+    margin: 10px;
+`;
+
 const ImageWrapper = styled.div`
     display: inline-block;
     position: relative;
@@ -67,9 +71,11 @@ const About = (props) => {
         <Chapter name="概要">
             <AboutWrapper>
                 <Column>
-                    <ImageWrapper>
-                        <Image src={JUMB_IMG}></Image>
-                    </ImageWrapper>
+                    <ImageMargin>
+                        <ImageWrapper>
+                            <Image src={JUMB_IMG}></Image>
+                        </ImageWrapper>
+                    </ImageMargin>
                 </Column>
                 <Column>
                     <TextImage src={TEXT_IMG}></TextImage>
