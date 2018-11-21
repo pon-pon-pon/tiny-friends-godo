@@ -7,6 +7,7 @@ import {
 
 import LOGO_IMAGE from '../assets/logo.png';
 import JUMBOTRON_IMAGE from '../assets/jumbotron.jpg';
+import TweetButton from './TweetButton';
 
 function clickEntry(e){
     e.preventDefault();
@@ -105,7 +106,7 @@ class Top extends React.Component{
               </FlavorText>
             <DeadLine>参加締め切り<br/>2018/12/15 23:59:59まで</DeadLine>
             <EntryLink onClick={clickEntry}>参加する(TwiPlaに飛びます)</EntryLink>
-          <div style={{margin: '20px'}}><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="" data-url="https://www.tiny-friends-godo.net/" data-hashtags="ちっちゃいこのいる日常合同" data-show-count="false">Tweet</a></div>
+            <TweetButton/>
         </JumbptronContent>
       </JumbotronWrapper>
     );

@@ -7,10 +7,11 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.1.0",
+    "react-share": "^2.3.1",
     "reactstrap": "^6.5.0",
     "styled-components": "^4.0.3"
   },
-  "homepage" : "https://www.tiny-friends-godo.net",
+  "homepage": "https://www.tiny-friends-godo.net",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
