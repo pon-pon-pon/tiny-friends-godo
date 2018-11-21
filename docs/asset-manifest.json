@@ -1,10 +1,10 @@
 {
   "main.css": "/static/css/main.59e5e724.chunk.css",
-  "main.js": "/static/js/main.c09fd48c.chunk.js",
-  "main.js.map": "/static/js/main.c09fd48c.chunk.js.map",
+  "main.js": "/static/js/main.9b969dd4.chunk.js",
+  "main.js.map": "/static/js/main.9b969dd4.chunk.js.map",
   "static/css/1.c7b9f08a.chunk.css": "/static/css/1.c7b9f08a.chunk.css",
-  "static/js/1.56bf77e0.chunk.js": "/static/js/1.56bf77e0.chunk.js",
-  "static/js/1.56bf77e0.chunk.js.map": "/static/js/1.56bf77e0.chunk.js.map",
+  "static/js/1.6ea72eff.chunk.js": "/static/js/1.6ea72eff.chunk.js",
+  "static/js/1.6ea72eff.chunk.js.map": "/static/js/1.6ea72eff.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/jumbotron.jpg": "/static/media/jumbotron.a5f7f19b.jpg",
@@ -13,9 +13,9 @@
   "static/media/utoi.jpg": "/static/media/utoi.b80664c9.jpg",
   "static/media/shopon.jpg": "/static/media/shopon.3ab3e260.jpg",
   "static/media/lolimoya.jpg": "/static/media/lolimoya.8a967064.jpg",
-  "static/css/main.59e5e724.chunk.css.map": "/static/css/main.59e5e724.chunk.css.map",
   "static/css/1.c7b9f08a.chunk.css.map": "/static/css/1.c7b9f08a.chunk.css.map",
+  "static/css/main.59e5e724.chunk.css.map": "/static/css/main.59e5e724.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9f90498cf4934ad0470559d56e9dfcf2.js": "/precache-manifest.9f90498cf4934ad0470559d56e9dfcf2.js",
+  "precache-manifest.24dfc72e7dcc8d7992c93e246dc4fec1.js": "/precache-manifest.24dfc72e7dcc8d7992c93e246dc4fec1.js",
   "service-worker.js": "/service-worker.js"
 }
