@@ -76,13 +76,18 @@ class Top extends React.Component{
     };
   }
   componentDidMount(){
-    if(!window.onresize){
-      window.onresize = () => {
-        setTimeout(() => {
-          this.setState({
-            height: window.innerHeight
-          });
-        })
+
+    //スマートフォンの場合，画面サイズの変更がバーの自動収納によってもonresizeが呼ばれてしまうため
+    //呼ばれるとtweet buttonが正常に動作しない場合がある
+    if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+      if(!window.onresize){
+        window.onresize = () => {
+          setTimeout(() => {
+            this.setState({
+              height: window.innerHeight
+            });
+          })
+        }
       }
     }
   }
