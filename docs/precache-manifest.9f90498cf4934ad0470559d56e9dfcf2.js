@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/lolimoya.8a967064.jpg"
   },
   {
-    "revision": "85efede34556eb529228c784810cf974",
+    "revision": "e84aa4ac0268f8210dbf241e6ce3bb71",
     "url": "/index.html"
   }
 ];
