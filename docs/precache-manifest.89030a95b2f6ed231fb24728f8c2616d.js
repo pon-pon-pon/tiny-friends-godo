@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ad58f67445e2f0ae5c9e",
+    "revision": "57ab1876d52cd929c590",
     "url": "/static/css/main.59e5e724.chunk.css"
   },
   {
-    "revision": "ad58f67445e2f0ae5c9e",
-    "url": "/static/js/main.ad58f674.chunk.js"
+    "revision": "57ab1876d52cd929c590",
+    "url": "/static/js/main.57ab1876.chunk.js"
   },
   {
     "revision": "6ea72eff2774967a287d",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/lolimoya.8a967064.jpg"
   },
   {
-    "revision": "d9d0a291fc072ea9b93b15bda655565f",
+    "revision": "ad1e19bf947dc970e4a10fbd3409ea96",
     "url": "/index.html"
   }
 ];

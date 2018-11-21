@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.59e5e724.chunk.css",
-  "main.js": "/static/js/main.ad58f674.chunk.js",
-  "main.js.map": "/static/js/main.ad58f674.chunk.js.map",
+  "main.js": "/static/js/main.57ab1876.chunk.js",
+  "main.js.map": "/static/js/main.57ab1876.chunk.js.map",
   "static/css/1.c7b9f08a.chunk.css": "/static/css/1.c7b9f08a.chunk.css",
   "static/js/1.6ea72eff.chunk.js": "/static/js/1.6ea72eff.chunk.js",
   "static/js/1.6ea72eff.chunk.js.map": "/static/js/1.6ea72eff.chunk.js.map",
@@ -13,9 +13,9 @@
   "static/media/utoi.jpg": "/static/media/utoi.b80664c9.jpg",
   "static/media/shopon.jpg": "/static/media/shopon.3ab3e260.jpg",
   "static/media/lolimoya.jpg": "/static/media/lolimoya.8a967064.jpg",
-  "static/css/main.59e5e724.chunk.css.map": "/static/css/main.59e5e724.chunk.css.map",
   "static/css/1.c7b9f08a.chunk.css.map": "/static/css/1.c7b9f08a.chunk.css.map",
+  "static/css/main.59e5e724.chunk.css.map": "/static/css/main.59e5e724.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.95d36036ef93ee890d144e833f29bb38.js": "/precache-manifest.95d36036ef93ee890d144e833f29bb38.js",
+  "precache-manifest.89030a95b2f6ed231fb24728f8c2616d.js": "/precache-manifest.89030a95b2f6ed231fb24728f8c2616d.js",
   "service-worker.js": "/service-worker.js"
 }
