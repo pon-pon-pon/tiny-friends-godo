@@ -86,7 +86,7 @@ class Top extends React.Component{
             this.setState({
               height: window.innerHeight
             });
-          })
+          },10)
         }
       }
     }
