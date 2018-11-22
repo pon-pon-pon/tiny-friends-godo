@@ -23,13 +23,23 @@ const Constants = {
             assent: true,
         },
         {
+            name: '秋乃 楓',
+            twitter: 'https://twitter.com/otiba_kaede',
+            pixiv: 'https://www.pixiv.net/member.php?id=2546991',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_KAEDE});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'かげ',
             twitter: 'https://twitter.com/numa_kage',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_KAGE});
                 background-size: 100%;
             `,
-            assent: false,
+            assent: true,
         },
         {
             name: 'しょうぽん',
@@ -37,6 +47,26 @@ const Constants = {
             pixiv: 'https://www.pixiv.net/member.php?id=2500405',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_SHOPON});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: '南沢',
+            twitter: 'https://twitter.com/mnm_pixiv',
+            pixiv: 'https://www.pixiv.net/member.php?id=6507496',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_MNM});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: '蘭戸せる',
+            twitter: 'https://twitter.com/Landsale_TL',
+            pixiv: 'https://www.pixiv.net/member.php?id=5499',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_LANDSALE});
                 background-size: 100%;
             `,
             assent: true,
