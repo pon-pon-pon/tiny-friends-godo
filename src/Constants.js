@@ -52,6 +52,36 @@ const Constants = {
             assent: true,
         },
         {
+            name: '橘宗虎',
+            twitter: 'https://twitter.com/mu_tachibana',
+            pixiv: 'https://www.pixiv.net/member.php?id=7493430',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_TACHIBANA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'ぱらがす',
+            twitter: 'https://twitter.com/parags112',
+            pixiv: 'https://www.pixiv.net/member.php?id=5209859',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_PARAGS});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'ほの太',
+            twitter: 'https://twitter.com/xxhonot',
+            pixiv: 'https://www.pixiv.net/member.php?id=3834162',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_HONOTA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: '南沢',
             twitter: 'https://twitter.com/mnm_pixiv',
             pixiv: 'https://www.pixiv.net/member.php?id=6507496',
