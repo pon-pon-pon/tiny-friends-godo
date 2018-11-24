@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import ICON_P from '../assets/icon_p.png';
 import ICON_T from '../assets/icon_t.png';
+import ICON_W from '../assets/icon_w.png';
 
 const Name = styled.p`
     letter-spacing:     .064em;
@@ -56,6 +57,13 @@ const LinkOfPixiv = styled.a`
     background-size: cover;
 `;
 
+const LinkOfWeb = styled.a`
+    width: 25px;
+    height: 25px;
+    background-image: url(${ICON_W});
+    background-size: cover;
+`;
+
 const Participant = (props) => {
 
     const { model } = props;
@@ -100,6 +108,9 @@ const Participant = (props) => {
                 })()}
                 {(() => {
                     if (model.pixiv) return <LinkOfPixiv href={model.pixiv} target="_blank" />;
+                })()}
+                {(() => {
+                    if (model.web) return <LinkOfWeb href={model.web} target="_blank" />;
                 })()}
             </LinkWrapper>
         </ParticipantWrapper>

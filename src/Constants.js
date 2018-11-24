@@ -33,10 +33,30 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'おねぶ',
+            twitter: 'https://twitter.com/oneb',
+            web: 'http://maru9.org/',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_ONEB});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'かげ',
             twitter: 'https://twitter.com/numa_kage',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_KAGE});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: '群青狼',
+            twitter: 'https://twitter.com/Gunjou_row',
+            pixiv: 'https://www.pixiv.net/member.php?id=28855649',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_GUNJOUROW});
                 background-size: 100%;
             `,
             assent: true,
