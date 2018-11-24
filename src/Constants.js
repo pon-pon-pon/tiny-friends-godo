@@ -16,6 +16,7 @@ const Constants = {
             name: '雨野みるは',
             twitter: 'https://twitter.com/yukihaaya',
             pixiv: 'https://www.pixiv.net/member.php?id=17246239',
+            web: 'https://amano0212miruha.wixsite.com/ammano',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_AMANO});
                 background-size: 100%;
