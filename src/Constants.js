@@ -3,6 +3,16 @@ import PARTICIPANT_ICONS from './assets/participant-icon';
 const Constants = {
     participants: [
         {
+            name: '秋乃 楓',
+            twitter: 'https://twitter.com/otiba_kaede',
+            pixiv: 'https://www.pixiv.net/member.php?id=2546991',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_KAEDE});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: '雨野みるは',
             twitter: 'https://twitter.com/yukihaaya',
             pixiv: 'https://www.pixiv.net/member.php?id=17246239',
@@ -18,16 +28,6 @@ const Constants = {
             pixiv: 'https://t.co/ROSyqx3c9C',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_UTOI});
-                background-size: 100%;
-            `,
-            assent: true,
-        },
-        {
-            name: '秋乃 楓',
-            twitter: 'https://twitter.com/otiba_kaede',
-            pixiv: 'https://www.pixiv.net/member.php?id=2546991',
-            icon:`
-                background-image: url(${PARTICIPANT_ICONS.ICON_KAEDE});
                 background-size: 100%;
             `,
             assent: true,
