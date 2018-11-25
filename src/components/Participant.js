@@ -5,24 +5,6 @@ import ICON_P from '../assets/icon_p.png';
 import ICON_T from '../assets/icon_t.png';
 import ICON_W from '../assets/icon_w.png';
 
-const Name = styled.p`
-    letter-spacing:     .064em;
-    font-size:          1.3rem;
-    font-weight:        200;
-    transition:         transform .3s ease-out;
-    transform:          translateY(-1rem);
-    position:           absolute;
-    top:                75%;
-    left:               0;
-    bottom:             0;
-    right:              0;
-    display:            flex;
-    flex-direction:     column;
-    justify-content:    flex-start;
-    align-items:        center;
-    color:              #fffef7;
-`;
-
 const ParticipantWrapper = styled.div`
     width:              25%;
     min-width:          200px;
@@ -96,6 +78,25 @@ const Participant = (props) => {
             overflow:           hidden;
         }
         ${model.icon}
+    `;
+
+    const Name = styled.p`
+        letter-spacing:     .064em;
+        font-size:          1.3rem;
+        font-weight:        200;
+        transition:         transform .3s ease-out;
+        transform:          translateY(-1rem);
+        position:           absolute;
+        top:                75%;
+        left:               0;
+        bottom:             0;
+        right:              0;
+        display:            flex;
+        flex-direction:     column;
+        justify-content:    flex-start;
+        align-items:        center;
+        color:              #fffef7;
+        ${model.nameStyle ? model.nameStyle : ""}
     `;
 
     return (

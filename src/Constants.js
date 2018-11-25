@@ -83,6 +83,29 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'なかむらすばる',
+            nameStyle:`
+                font-size: 18px;
+            `,
+            twitter: 'https://twitter.com/subaruchen_',
+            pixiv: 'https://pixiv.me/syaku923',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_NAKAMURA_SUBARU});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'のまのま',
+            twitter: 'https://twitter.com/Cast_A',
+            pixiv: 'https://pixiv.me/cast_a',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_NOMANOMA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'ぱらがす',
             twitter: 'https://twitter.com/parags112',
             pixiv: 'https://www.pixiv.net/member.php?id=5209859',

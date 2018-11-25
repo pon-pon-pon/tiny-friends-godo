@@ -7,6 +7,8 @@ import ICON_KAGE from './kage.jpg';
 import ICON_GUNJOUROW from './gunjourow.jpg';
 import ICON_SHOPON from './shopon.jpg';
 import ICON_TACHIBANA from './tachibana.jpg';
+import ICON_NAKAMURA_SUBARU from './nakamura_subaru.jpg';
+import ICON_NOMANOMA from './nomanoma.jpg';
 import ICON_PARAGS from './parags.jpg';
 import ICON_HONOTA from './honota.jpg';
 import ICON_MNM from './mnm.jpg';
@@ -22,6 +24,8 @@ export default {
     ICON_GUNJOUROW,
     ICON_SHOPON,
     ICON_TACHIBANA,
+    ICON_NAKAMURA_SUBARU,
+    ICON_NOMANOMA,
     ICON_PARAGS,
     ICON_HONOTA,
     ICON_MNM,
