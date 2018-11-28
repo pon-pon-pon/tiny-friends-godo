@@ -1,4 +1,5 @@
 import ICON_DUMMY from './dummy.jpg';
+import ICON_AO from './ao.jpg';
 import ICON_KAEDE from './kaede.jpg';
 import ICON_AMANO from './amano.jpg';
 import ICON_UTOI from './utoi.jpg';
@@ -16,6 +17,7 @@ import ICON_LANDSALE from './landsale.jpg';
 import ICON_LOLIMOYA from './lolimoya.jpg';
 export default {
     ICON_DUMMY,
+    ICON_AO,
     ICON_KAEDE,
     ICON_AMANO,
     ICON_UTOI,

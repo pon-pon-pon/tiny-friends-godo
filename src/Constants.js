@@ -3,6 +3,16 @@ import PARTICIPANT_ICONS from './assets/participant-icon';
 const Constants = {
     participants: [
         {
+            name: 'アオ',
+            twitter: 'https://twitter.com/ao_jinkoseibutu',
+            pixiv: 'https://www.pixiv.net/member.php?id=235305',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_AO});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: '秋乃 楓',
             twitter: 'https://twitter.com/otiba_kaede',
             pixiv: 'https://www.pixiv.net/member.php?id=2546991',
