@@ -23,6 +23,26 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'アサギルリア',
+            twitter: 'https://twitter.com/asagiruri',
+            pixiv: 'https://www.pixiv.net/member.php?id=78576',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_ASAGI});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'あず',
+            twitter: 'https://twitter.com/azumato1224',
+            pixiv: 'https://www.pixiv.net/member.php?id=853140',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_AZU});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: '雨野みるは',
             twitter: 'https://twitter.com/yukihaaya',
             pixiv: 'https://www.pixiv.net/member.php?id=17246239',
@@ -83,11 +103,31 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'すばた',
+            twitter: 'https://twitter.com/supa310',
+            pixiv: 'https://www.pixiv.net/member.php?id=263326',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_SUBATA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: '橘宗虎',
             twitter: 'https://twitter.com/mu_tachibana',
             pixiv: 'https://www.pixiv.net/member.php?id=7493430',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_TACHIBANA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: '提供',
+            twitter: 'https://twitter.com/oomura129',
+            pixiv: 'https://www.pixiv.net/member.php?id=4202630',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_TEKYO});
                 background-size: 100%;
             `,
             assent: true,
@@ -101,6 +141,16 @@ const Constants = {
             pixiv: 'https://pixiv.me/syaku923',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_NAKAMURA_SUBARU});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'なつき',
+            twitter: 'https://twitter.com/Natuki06022',
+            pixiv: 'https://www.pixiv.net/member.php?id=28962110',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_NATUKI});
                 background-size: 100%;
             `,
             assent: true,
@@ -121,6 +171,16 @@ const Constants = {
             pixiv: 'https://www.pixiv.net/member.php?id=5209859',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_PARAGS});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'byaco',
+            twitter: 'https://twitter.com/_by4co',
+            tumblr: 'http://srktn.tumblr.com/',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_BYACO});
                 background-size: 100%;
             `,
             assent: true,

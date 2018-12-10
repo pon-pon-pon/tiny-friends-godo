@@ -122,7 +122,7 @@ const Participant = (props) => {
                     if (model.web) return <LinkOfWeb href={model.web} target="_blank" />;
                 })()}
                 {(() => {
-                    if (model.tumbler) return <LinkOfTum href={model.tumbler} target="_blank" />;
+                    if (model.tumblr) return <LinkOfTum href={model.tumblr} target="_blank" />;
                 })()}
             </LinkWrapper>
         </ParticipantWrapper>
