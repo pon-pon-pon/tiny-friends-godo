@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ICON_P from '../assets/icon_p.png';
-import ICON_T from '../assets/icon_t.png';
-import ICON_W from '../assets/icon_w.png';
+import ICON_PIX from '../assets/icon_pix.jpg';
+import ICON_TWI from '../assets/icon_twi.jpg';
+import ICON_WEB from '../assets/icon_web.jpg';
+import ICON_TUM from '../assets/icon_tum.jpg';
 
 const ParticipantWrapper = styled.div`
     width:              25%;
@@ -25,24 +26,31 @@ const LinkWrapper = styled.div`
     justify-content: space-evenly;
 `;
 
-const LinkOfTwitter = styled.a`
+const LinkOfTwi = styled.a`
     width: 25px;
     height: 25px;
-    background-image: url(${ICON_T});
+    background-image: url(${ICON_TWI});
     background-size: cover;
 `;
 
-const LinkOfPixiv = styled.a`
+const LinkOfPix = styled.a`
     width: 25px;
     height: 25px;
-    background-image: url(${ICON_P});
+    background-image: url(${ICON_PIX});
     background-size: cover;
 `;
 
 const LinkOfWeb = styled.a`
     width: 25px;
     height: 25px;
-    background-image: url(${ICON_W});
+    background-image: url(${ICON_WEB});
+    background-size: cover;
+`;
+
+const LinkOfTum = styled.a`
+    width: 25px;
+    height: 25px;
+    background-image: url(${ICON_TUM});
     background-size: cover;
 `;
 
@@ -105,13 +113,16 @@ const Participant = (props) => {
             <Name>{model.name}</Name>
             <LinkWrapper>
                 {(() => {
-                    if (model.twitter) return <LinkOfTwitter href={model.twitter} target="_blank" />;
+                    if (model.twitter) return <LinkOfTwi href={model.twitter} target="_blank" />;
                 })()}
                 {(() => {
-                    if (model.pixiv) return <LinkOfPixiv href={model.pixiv} target="_blank" />;
+                    if (model.pixiv) return <LinkOfPix href={model.pixiv} target="_blank" />;
                 })()}
                 {(() => {
                     if (model.web) return <LinkOfWeb href={model.web} target="_blank" />;
+                })()}
+                {(() => {
+                    if (model.tumbler) return <LinkOfTum href={model.tumbler} target="_blank" />;
                 })()}
             </LinkWrapper>
         </ParticipantWrapper>
