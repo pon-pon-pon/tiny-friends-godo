@@ -54,6 +54,36 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'あまはち',
+            twitter: 'https://twitter.com/Ama_8_',
+            pixiv: 'https://www.pixiv.net/member.php?id=9024204',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_AMAHACHI});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: '絵描猫',
+            twitter: 'https://twitter.com/catdrawing',
+            pixiv: 'https://www.pixiv.net/member.php?id=7206940',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_EKAKINEKO});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'ウオーズ',
+            twitter: 'https://twitter.com/end_wars6700',
+            pixiv: 'https://www.pixiv.net/member.php?id=1819132',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_WARS});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'うとい',
             twitter: 'https://twitter.com/namekotake',
             pixiv: 'https://t.co/ROSyqx3c9C',
@@ -146,11 +176,30 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'ながれんちょ',
+            twitter: 'https://twitter.com/t_elnestia',
+            pixiv: 'https://www.pixiv.net/member.php?id=2856666',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_NAGARENCHO});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'なつき',
             twitter: 'https://twitter.com/Natuki06022',
             pixiv: 'https://www.pixiv.net/member.php?id=28962110',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_NATUKI});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'なっとぅ',
+            twitter: 'https://twitter.com/n_t_tr0910',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_NATTOLU});
                 background-size: 100%;
             `,
             assent: true,
