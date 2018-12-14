@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "36cd9426e1a67080ab67",
-    "url": "/static/css/main.4c00e824.chunk.css"
+    "revision": "0c3ae505f490cc88d6b5",
+    "url": "/static/css/main.8ac8d7a4.chunk.css"
   },
   {
-    "revision": "36cd9426e1a67080ab67",
-    "url": "/static/js/main.36cd9426.chunk.js"
+    "revision": "0c3ae505f490cc88d6b5",
+    "url": "/static/js/main.0c3ae505.chunk.js"
   },
   {
-    "revision": "2d21a60f822e2f5afee5",
-    "url": "/static/css/1.d6813253.chunk.css"
+    "revision": "1e3b3d23f9630dec1611",
+    "url": "/static/css/1.b75917ac.chunk.css"
   },
   {
-    "revision": "2d21a60f822e2f5afee5",
-    "url": "/static/js/1.2d21a60f.chunk.js"
+    "revision": "1e3b3d23f9630dec1611",
+    "url": "/static/js/1.1e3b3d23.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -76,6 +76,10 @@ self.__precacheManifest = [
     "url": "/static/media/gunjourow.842795b1.jpg"
   },
   {
+    "revision": "19ed0ad8fd43d78a06ef49e96be8da74",
+    "url": "/static/media/sawagani.19ed0ad8.jpg"
+  },
+  {
     "revision": "3ab3e26026fde4c5f196db098b6d247e",
     "url": "/static/media/shopon.3ab3e260.jpg"
   },
@@ -136,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/lolimoya.8a967064.jpg"
   },
   {
-    "revision": "881d9d2a30d60f53c7da21801d04099e",
+    "revision": "b640a7ebb83d90daea38359ecc804e31",
     "url": "/index.html"
   }
 ];

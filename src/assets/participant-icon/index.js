@@ -11,6 +11,7 @@ import ICON_UTOI from './utoi.jpg';
 import ICON_ONEB from './oneb.jpg';
 import ICON_KAGE from './kage.jpg';
 import ICON_GUNJOUROW from './gunjourow.jpg';
+import ICON_SAWAGANI from './sawagani.jpg';
 import ICON_SHOPON from './shopon.jpg';
 import ICON_SUBATA from './subata.jpg';
 import ICON_TACHIBANA from './tachibana.jpg';
@@ -40,6 +41,7 @@ export default {
     ICON_ONEB,
     ICON_KAGE,
     ICON_GUNJOUROW,
+    ICON_SAWAGANI,
     ICON_SHOPON,
     ICON_SUBATA,
     ICON_TACHIBANA,

@@ -123,6 +123,16 @@ const Constants = {
             assent: true,
         },
         {
+            name: 'さわがに',
+            twitter: 'https://twitter.com/JH1SEQ',
+            pixiv: 'https://www.pixiv.net/member.php?id=5781918',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_SAWAGANI});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'しょうぽん',
             twitter: 'https://twitter.com/shopon1201',
             pixiv: 'https://www.pixiv.net/member.php?id=2500405',
