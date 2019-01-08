@@ -36,6 +36,7 @@ const Participants = (props) => {
             <p>
                 五十音順。敬称略。<ResponsiveBr/>
                 確認が取れた方から順次掲載させてだきます。
+                <a href="https://twipla.jp/events/343022" target="_blank">TwiPlaの参加者リストの方が正確です．</a>
             </p>
             <ParticipantsWrapper>
                 {participantComponents}
