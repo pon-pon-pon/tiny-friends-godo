@@ -25,6 +25,12 @@ const NavBarItem = styled.li`
 
 const NavBarLink = styled.div`
     color: #fff !important;
+    @media screen and (max-width: 376px){
+        font-size: small;
+    }
+    @media screen and (max-width: 320px){
+        font-size: x-small;
+    }
 `;
 
 function createNavBarItem(chapterName){

@@ -13,7 +13,7 @@ const ParticipantWrapper = styled.div`
     flex-direction:     column;
     justify-content:    center;
     align-items:        center;
-    margin: 10px;
+    margin: 20px;
 
     position:           relative;
 `;
