@@ -109,8 +109,7 @@ class Top extends React.Component{
                 東方Projectのキャラクターとの<ResponsiveBr/>
                 生活を描いた合同誌
               </FlavorText>
-            <DeadLine>参加締め切り<br/>2018/12/15 23:59:59まで</DeadLine>
-            <EntryLink onClick={clickEntry}>参加する(TwiPlaに飛びます)</EntryLink>
+            <EntryLink onClick={clickEntry}>TwiPla</EntryLink>
             <TweetButton/>
         </JumbptronContent>
       </JumbotronWrapper>
