@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.65fe7df3.chunk.css",
-  "main.js": "/static/js/main.67082f52.chunk.js",
-  "main.js.map": "/static/js/main.67082f52.chunk.js.map",
+  "main.css": "/static/css/main.1ed55d32.chunk.css",
+  "main.js": "/static/js/main.1fcaf3dd.chunk.js",
+  "main.js.map": "/static/js/main.1fcaf3dd.chunk.js.map",
   "static/css/1.94e7d167.chunk.css": "/static/css/1.94e7d167.chunk.css",
   "static/js/1.fee8c72e.chunk.js": "/static/js/1.fee8c72e.chunk.js",
   "static/js/1.fee8c72e.chunk.js.map": "/static/js/1.fee8c72e.chunk.js.map",
@@ -43,9 +43,9 @@
   "static/media/mnm.jpg": "/static/media/mnm.e9cad5a1.jpg",
   "static/media/landsale.jpg": "/static/media/landsale.d0d0aa2b.jpg",
   "static/media/lolimoya.jpg": "/static/media/lolimoya.8a967064.jpg",
+  "static/css/main.1ed55d32.chunk.css.map": "/static/css/main.1ed55d32.chunk.css.map",
   "static/css/1.94e7d167.chunk.css.map": "/static/css/1.94e7d167.chunk.css.map",
-  "static/css/main.65fe7df3.chunk.css.map": "/static/css/main.65fe7df3.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.86135fecf5183ce1248b027d462fd1be.js": "/precache-manifest.86135fecf5183ce1248b027d462fd1be.js",
+  "precache-manifest.47f921d73f5cba7465e7757756b67d48.js": "/precache-manifest.47f921d73f5cba7465e7757756b67d48.js",
   "service-worker.js": "/service-worker.js"
 }
