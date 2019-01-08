@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ChapterWrapper = styled.div`
-    margin: auto;
+    margin: 50px auto 50px auto;
     @media screen and (min-width: 1000px) {
         width: 1000px;
     }
