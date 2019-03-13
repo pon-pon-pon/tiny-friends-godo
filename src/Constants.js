@@ -255,6 +255,9 @@ const Constants = {
             name: 'なかむらすばる',
             nameStyle:`
                 font-size: 18px;
+                @media screen and (max-width: 780px) {
+                    letter-spacing: -0.18em;
+                }
             `,
             twitter: 'https://twitter.com/subaruchen_',
             pixiv: 'https://pixiv.me/syaku923',

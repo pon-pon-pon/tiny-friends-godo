@@ -11,6 +11,9 @@ const ParticipantWrapper = styled.div`
     min-width:          200px;
     display:            flex;
     flex-direction:     column;
+    @media screen and (max-width: 780px) {
+        flex-direction: row;
+    }
     justify-content:    center;
     align-items:        center;
     margin: 20px;
@@ -63,6 +66,9 @@ const Participant = (props) => {
         max-height:         100%;
         width:              200px;
         height:             200px;
+        @media screen and (max-width: 780px) {
+            height: 100px;
+        }
         border-radius:      100000000px;
         border:             3px solid #fff;
 
@@ -104,6 +110,13 @@ const Participant = (props) => {
         justify-content:    flex-start;
         align-items:        center;
         color:              #fffef7;
+        @media screen and (max-width: 780px) {
+            color: #2d293e;
+            top: 90%;
+            left: 50%;
+            letter-spacing: -0.064em;
+            font-size: 17px;
+        }
         ${model.nameStyle ? model.nameStyle : ""}
     `;
 
