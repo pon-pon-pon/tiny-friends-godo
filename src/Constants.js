@@ -163,6 +163,26 @@ const Constants = {
             assent: true,
         },
         {
+            name: '試咲型',
+            twitter: 'https://twitter.com/sisakugata439',
+            pixiv: 'https://www.pixiv.net/member.php?id=6592612',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_SISAKUGATA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'じゅげむ',
+            twitter: 'https://twitter.com/jugemuni',
+            pixiv: 'https://www.pixiv.net/member.php?id=13229418',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_JUGEMU});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
             name: 'しょうぽん',
             twitter: 'https://twitter.com/shopon1201',
             pixiv: 'https://www.pixiv.net/member.php?id=2500405',
@@ -208,6 +228,15 @@ const Constants = {
             pixiv: 'https://www.pixiv.net/member.php?id=7493430',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_TACHIBANA});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: '血城ごさん',
+            twitter: 'https://twitter.com/53_scarlet',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_TIKIZUKI});
                 background-size: 100%;
             `,
             assent: true,
@@ -299,6 +328,16 @@ const Constants = {
             tumblr: 'http://srktn.tumblr.com/',
             icon:`
                 background-image: url(${PARTICIPANT_ICONS.ICON_BYACO});
+                background-size: 100%;
+            `,
+            assent: true,
+        },
+        {
+            name: 'フランシウム',
+            twitter: 'https://twitter.com/francium_223',
+            pixiv: 'https://www.pixiv.net/member.php?id=1700230',
+            icon:`
+                background-image: url(${PARTICIPANT_ICONS.ICON_FRANCIUM});
                 background-size: 100%;
             `,
             assent: true,
